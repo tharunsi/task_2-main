@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+  }
+  
+  .profile-container {
+    text-align: center;
+    background: #1d1c1b;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .profile-name {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #d9d5d5;
+  }
+  
+  .profile-location {
+    font-size: 1em;
+    color: #cae96c;
+  }
+  
+  .profile-description {
+    font-size: 1em;
+    color: #858585;
+    margin: 15px 0;
+  }
+  
+  .socio {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .socio a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px ;
+    background: #353232;
+    font-size: 15px;
+    border-radius: 9%;
+  }
+  
+  .socio a:hover {
+    color: #0bdb5e;
+  }
+  
+  .attribution {
+    margin-top: 20px;
+    font-size: 0.875em;
+    color: #777;
+  }
+  
+  .attribution a {
+    color: #0073e6;
+    text-decoration: none;
+  }
+  
+  .attribution a:hover {
+    color: #005bb5;
+  }
+
+ 
+ /* no media queries required in this project */
+  
+  
